@@ -9,6 +9,8 @@ var/list/registered_macros_by_ckey_
 	set category = null
 	log_macro(ckey, ".click")
 
+	test
+
 /mob/verb/DisableDblClick(argu = null as anything, sec = "" as text, number1 = 0 as num, number2 = 0 as num)
 	set name = ".dblclick"
 	set category = null
